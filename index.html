@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="new.js">
+</head>
+<body>
+    <div class="product-card">
+        <img src="carimage.jpeg" alt="Sample Product" class="product-image">
+        <h2 class="product-title">Ferrari Italy</h2>
+        <p class="product-price">$. 15000</p>
+        <p class="product-description">New car launched by Audi IN.</p>
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" value="1" min="1">
+        <p class="total-price">Total Price: $. <span id="total-price">15000</span></p>
+        <button id="buy-button" onclick="addToCart()">Buy Now</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
